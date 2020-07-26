@@ -79,12 +79,20 @@
                         <div class="col-md-6 col-lg-4 mb-5">
                             <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div class="portfolio-item-caption-content text-center text-dark" style="padding: 10px">
-                                        <h3><strong>HASTE</strong> </h3>
-                                        <p>An order/delivery organiser for logistical planning</p>
-                                    </div>
+                                    <img src="assets/img/portfolio/delivery-page.jpg" style="max-height: 100%;">
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            </div>
+
+                            <div class="portfolio-item-caption-content text-center text-dark mt-3">
+                                <h4><strong>HASTE</strong></h4>
+                                <p class="mx-2">An order/delivery organiser for easier logistical planning</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center mx-2" style="margin-top: 30px;">
+                                <span class="badge badge-secondary text-white mr-1">Node.js</span>
+                                <span class="badge badge-secondary text-white mr-1">Express</span>
+                                <span class="badge badge-secondary text-white mr-1">Passport</span>
+                                <span class="badge badge-secondary text-white mr-1">EJS</span>
                             </div>
                         </div>
 
@@ -92,25 +100,38 @@
                         <div class="col-md-6 col-lg-4 mb-5">
                             <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div class="portfolio-item-caption-content text-center text-dark">
-                                        <h3><strong>PATHFINDER</strong> </h3>
-                                        <p>A JS implementation of the classic A* search algorithm</p>
-                                    </div>
+                                    <img src="assets/img/portfolio/astar-ss.jpg" style="max-height: 100%;">
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
                             </div>
+
+                            <div class="portfolio-item-caption-content text-center text-dark mt-3">
+                                <h4><strong>PATHFINDER</strong></h4>
+                                <p class="mx-2">A JS implementation of the A* search algorithm</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center mx-2" style="margin-top: 30px;">
+                                <span class="badge badge-secondary text-white mr-1">JavaScript</span>
+                            </div>
+                            
                         </div>
 
                         <!-- Portfolio Item 3-->
                         <div class="col-md-6 col-lg-4 mb-5">
-                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div class="portfolio-item-caption-content text-center text-dark">
-                                        <h3><strong>SUDOKU</strong> </h3>
-                                        <p>But have you seen one with a handy ghost?</p>
-                                    </div>
+                                    <img src="assets/img/portfolio/sudoku.jpg" style="max-height: 100%;">
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            </div>
+
+                            <div class="portfolio-item-caption-content text-center text-dark mt-3">
+                                <h4><strong>SUDOKU</strong></h4>
+                                <p class="mx-2">But have you seen one with a handy ghost?</p>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-center mx-2" style="margin-top: 30px;">
+                                <span class="badge badge-secondary text-white mr-1">JavaScript</span>
+                                <span class="badge badge-secondary text-white mr-1">HTML</span>
+                                <span class="badge badge-secondary text-white mr-1">CSS</span>
                             </div>
                         </div>
 
@@ -204,7 +225,19 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fab fa-node-js"></i></span>
-                            Nodejs
+                            Node.js
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-node-js"></i></span>
+                            Express
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-node-js"></i></span>
+                            EJS
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fab fa-node-js"></i></span>
+                            PassportJS
                         </li>
                         <li>
                             <span class="fa-li"><i class="fab fa-react"></i></span>
@@ -269,17 +302,19 @@
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8">
+                                <div class="col-lg-8 text-secondary">
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4" id="portfolioModal1Label">HASTE</h2>
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-3" src="assets/img/portfolio/delivery-page.jpg" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="text-left mb-1">Features: </p>
-                                    <ul class="text-left">
+                                    <ul class="text-left mb-5">
                                         <li>Displays all orders/deliveries</li>
                                         <li>Summary bar for statistics</li>
                                         <li>Integrated Google Maps</li>
+                                        <li>Data stored in Mongo cloud</li>
+                                        <li>Staff login only</li>
                                     </ul>
                                     <form action="https://makehaste.herokuapp.com/" target="_blank">
                                         <button type="submit" class="btn btn-warning">Visit page</button>
@@ -301,13 +336,13 @@
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8">
+                                <div class="col-lg-8 text-secondary">
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4" id="portfolioModal1Label">Pathfinder</h2>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="assets/img/portfolio/cake.png" alt="" />
+                                    <img class="img-fluid rounded mb-3" src="assets/img/portfolio/astar-ss.jpg" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="text-left mb-5">Just drag to build the walls and it'll find it's way.</p>
                                     <form action="https://russellcxl.github.io/algernon-and-his-cheese/" target="_blank">
                                         <button type="submit" class="btn btn-warning">Visit page</button>
                                     </form>
@@ -328,13 +363,18 @@
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8">
+                                <div class="col-lg-8 text-secondary">
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4" id="portfolioModal1Label">Sudoku</h2>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="assets/img/portfolio/circus.png" alt="" />
+                                    <img class="img-fluid rounded mb-3" src="assets/img/portfolio/sudoku.jpg" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="text-left mb-1">Features: </p>
+                                    <ul class="text-left mb-5">
+                                        <li>Built-in solver</li>
+                                        <li>Board difficulty selection or custom</li>
+                                        <li>Animated helper</li>
+                                    </ul>
                                     <form action="https://russellcxl.github.io/project-1-sei23/" target="_blank">
                                         <button type="submit" class="btn btn-warning">Visit page</button>
                                     </form>
