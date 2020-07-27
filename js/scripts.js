@@ -39,4 +39,19 @@
     $("body").scrollspy({
         target: "#sideNav",
     });
+
+    //stops body from taking the modal-open class
+    // $('.portfolio-modal').on('shown.bs.modal', function (e) {
+    //     $('body').removeClass('modal-open');
+    //     $('body').css('padding-right', 0);
+    //     $('#sideNav').css('padding-right', 0);
+    // });
+
+    // $('.portfolio-modal').on('hidden.bs.modal', function (e) {
+    //     $('#myCustomElement').removeClass('modal-open');
+    // });
+    
+
 })(jQuery); // End of use strict
+
+
