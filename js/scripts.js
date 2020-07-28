@@ -50,7 +50,7 @@
     // $('.portfolio-modal').on('hidden.bs.modal', function (e) {
     //     $('#myCustomElement').removeClass('modal-open');
     // });
-    
+
 
 })(jQuery); // End of use strict
 
