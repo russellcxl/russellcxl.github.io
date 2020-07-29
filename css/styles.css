@@ -3986,6 +3986,12 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  
 }
 .navbar .container,
 .navbar .container-fluid,
