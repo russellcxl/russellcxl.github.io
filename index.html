@@ -459,8 +459,11 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-3" src="assets/img/portfolio/sorter-gif.gif" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="text-left">Currently, the sorter runs the Quicksort algorithm. I hope to implement 3 more soon -- merge sort, binary tree sort and bubble sort. </p>
-                                    <p class="text-left mb-5">The Quicksort works like this: it takes a 'pivot' (for mine, the last element in the array), and sorts the numbers around it -- smaller numbers on the left, larger ones on the right. Now the array is split into 2. The Quicksort is then called recursively on these arrays, and these arrays will produce smaller arrays, and the Quicksort is called again, and so on.</p>
+                                    <p class="text-left">Currently, the sorter runs 2 sorting algorithms: <strong>Quick sort</strong> and <strong>Merge sort</strong>. I hope to implement 2 more soon -- heap and bubble sort. </p>
+                                    <p class="text-left">The Quick sort works like this: it takes a 'pivot' (for mine, the last element in the array), and sorts the numbers around it -- smaller numbers on the left, larger ones on the right. Now the array is split into 2. The Quicksort is then called recursively on these arrays, and these arrays will produce smaller arrays, and the Quicksort is called again, and so on.</p>
+
+                                    <p class="text-left mb-5">The Merge sort works through recursion as well, but quite differently. It first splits the array up into single-element arrays. Next, it combines these arrays, sorts the new combined array, combines this new array with another, and so on. It may help to imagine this process as something like building an inverted pyramid.</p>
+
                                     <div class="d-flex justify-content-center">
                                         <form class="mr-2" action="https://russellcxl.github.io/sorting-visualiser/" target="_blank">
                                             <button type="submit" class="btn btn-warning">Demo <i class="fa fa-keyboard"></i></button>
