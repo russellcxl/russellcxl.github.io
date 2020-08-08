@@ -51,7 +51,7 @@
                         <a href="mailto:russellcxl@gmail.com">russellcxl@gmail.com</a>
                     </div>
                     <p class="lead">Before I started to code, I was a news writer. After reading Nabokov (Pale Fire) about a decade ago, I came to believe that I should grow up to become a writer -- which I did. But as much as I enjoyed writing, I also enjoyed systems that help organise bits and things. So I dabbled in Excel, then in a little bit of Python, then in JavaScript, then I became quite determined that I should grow up to become something else.</p>
-                    <p class="lead mb-5">I am currently enrolled in a 3-month Software Engineering Immersive by General Assembly that ends in early September 2020.</p>
+                    <p class="lead mb-5">I am currently enrolled in a 3-month Software Engineering Immersive by General Assembly, which It ends in early September 2020.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/russellcxl/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/russellcxl"><i class="fab fa-github"></i></a>
@@ -81,7 +81,7 @@
                         <div class="col-md-6 col-lg-4 mb-5">
                             <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <img src="assets/img/portfolio/sorting-ss.JPG" style="max-height: 100%;">
+                                    <img src="assets/img/portfolio/sorter-ss.JPG" style="max-height: 100%;">
                                 </div>
                                 <img class="img-fluid" src="assets/img/thumbnails/sorter-thumbnail.jpg" alt="" />
                             </div>
@@ -126,7 +126,7 @@
                         <div class="col-md-6 col-lg-4 mb-5">
                             <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <img src="assets/img/portfolio/astar-ss.jpg" style="max-height: 100%;">
+                                    <img src="assets/img/portfolio/pathfinder-ss.JPG" style="max-height: 100%;">
                                 </div>
                                 <img class="img-fluid" src="assets/img/thumbnails/pathfinder-thumbnail.jpg" alt="" />
                             </div>
@@ -390,7 +390,7 @@
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-secondary text-uppercase mb-4" id="portfolioModal1Label">Pathfinder</h2>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-3" src="assets/img/portfolio/a-star-gif.gif" alt="" />
+                                    <img class="img-fluid rounded mb-3" src="assets/img/portfolio/pathfinder-gif.gif" alt="" />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="text-left">Just drag to build the walls and the program will find its way.</p>
                                     <p class="text-left">A little about the A*: it searches for its target by considering 2 factors: (1) distance from the starting point and (2) estimated distance to the destination.</p>
@@ -465,10 +465,9 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-3" src="assets/img/portfolio/sorter-gif.gif" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="text-left">Currently, the sorter runs 2 sorting algorithms: <strong>Quick sort</strong> and <strong>Merge sort</strong>. I hope to implement 2 more soon -- heap and bubble sort. </p>
-                                    <p class="text-left">The Quick sort works like this: it takes a 'pivot' (for mine, the last element in the array), and sorts the numbers around it -- smaller numbers on the left, larger ones on the right. Now the array is split into 2. The Quicksort is then called recursively on these arrays, and these arrays will produce smaller arrays, and the Quicksort is called again, and so on.</p>
-
-                                    <p class="text-left mb-5">The Merge sort works through recursion as well, but quite differently. It first splits the array up into single-element arrays. Next, it combines these arrays, sorts the new combined array, combines this new array with another, and so on. It may help to imagine this process as something like building an inverted pyramid.</p>
+                                    <p class="text-left">Currently, the sorter runs 3 sorting algorithms: <strong>Quick sort</strong>, <strong>Merge sort</strong> and <strong>Bucket sort</strong>. I hope to implement 2 more soon -- heap and bubble sort. </p>
+                                    <p class="text-left">For Quick, the red bars represent the 'pivots', while for Merge, they demarcate the current arrays being sorted and merged.</p>
+                                    <p class="text-left mb-5">For Bucket, the dark blue bars demarcate the buckets -- I've set the number of buckets to 10, which means 10 dark blue bars should appear as the algorithm sorts the bars into their respective buckets.</p>
 
                                     <div class="d-flex justify-content-center">
                                         <form class="mr-2" action="https://russellcxl.github.io/sorting-visualiser/" target="_blank">
